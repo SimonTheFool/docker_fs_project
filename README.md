@@ -4,7 +4,7 @@
 I'm not a professional backend engineer.<br>
 This is my first backend app so far.<br>
 I hope my understanding of DDD concept and implementation can help me pass the trial.<br>
-2nd Nov, 2023
+### 2nd Nov, 2023
 Nothing other than README.md is working.
 
 ## Built with
@@ -21,9 +21,9 @@ Nothing other than README.md is working.
  - `adapter` layer:
  - `infrastructure` layer: Mongoose
 
-Currently, I don't think I have enough time to write a lot of code about user.
-But DDD do need at least to subdomain. (To indicate that different group are working together.)
-However, I do not have enough time for this. So temperarily, this part will not be implemented.
+Currently, I don't think I have enough time to write a lot of code about user.<br>
+But DDD do need at least to subdomain. (To indicate that different group are working together.)<br>
+However, I do not have enough time for this. So temperarily, this part will not be implemented.<br>
 
 #### `Fruit` subdomain
   - `domain` layer: `fruit`(aggregate root), `fruitName`, `fruitDescription`(value object),`FruitCreated`(domain event)
@@ -34,10 +34,10 @@ However, I do not have enough time for this. So temperarily, this part will not 
 
 ### **mutations**
 #### `storeFruitToFruitStorage(name: string, amount: int)`
-|Variable|Type|Explanation|
-｜--|:--:|:--|
-|name|string|The name of the fruit.|
-|amount|number|The amount of fruit to put into the storage.|
+| Variable | Type | Explanation |
+| --- | :---: | :--- |
+| name | string | The name of the fruit. |
+| amount | number | The amount of fruit to put into the storage. |
 ##### requirements
 1. Javascript identify every numbers as number, so I should use a `Number.isInteger()` to check if the input is an integer. And also use `amount > 0 ` to indicate that the system do not store negative amount of fruit into the storage.
 2. The amount add with the amount existed overflow the limit.
@@ -66,3 +66,4 @@ Read document of docker, javascript, node.js, typescript as well as graphQL.<br>
 #### TODO
 1. Since I already understand what the first mutation would do. I should keep working on the rest.
 2. Read DDD desgin and node.js material
+3. CI/CD not involved except version control.
