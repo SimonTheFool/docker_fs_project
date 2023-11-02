@@ -23,7 +23,7 @@ Nothing other than README.md is working.
 
 Currently, I don't think I have enough time to write a lot of code about user.<br>
 But DDD do need at least to subdomain. (To indicate that different group are working together.)<br>
-However, I do not have enough time for this. So temperarily, this part will not be implemented.
+However, I do not have enough time for this. So temperarily, this part will not be implemented.<br>
 
 #### `Fruit` subdomain
   - `domain` layer: `fruit`(aggregate root), `fruitName`, `fruitDescription`(value object),`FruitCreated`(domain event)
@@ -34,7 +34,7 @@ However, I do not have enough time for this. So temperarily, this part will not 
 
 ### **mutations**
 #### `storeFruitToFruitStorage(name: string, amount: int)`
-| Variable | Typ | Explanation |
+| Variable | Type | Explanation |
 | --- | :---: | :--- |
 | name | string | The name of the fruit. |
 | amount | number | The amount of fruit to put into the storage. |
@@ -66,3 +66,4 @@ Read document of docker, javascript, node.js, typescript as well as graphQL.<br>
 #### TODO
 1. Since I already understand what the first mutation would do. I should keep working on the rest.
 2. Read DDD desgin and node.js material
+3. CI/CD not involved except version control.
