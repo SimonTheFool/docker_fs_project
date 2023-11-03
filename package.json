@@ -2,7 +2,7 @@
   "name": "docker_fs_project",
   "version": "1.0.0",
   "description": "The first time building node.js project",
-  "main": "entrypoint.sh",
+  "main": "index.js",
   "scripts": {
     "test": "jest"
   },
