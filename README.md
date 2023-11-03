@@ -4,8 +4,9 @@
 I'm not a professional backend engineer.<br>
 This is my first backend app so far.<br>
 I hope my understanding of DDD concept and implementation can help me pass the trial.<br>
-### 2nd Nov, 2023
-Nothing other than README.md is working.
+### 3rd Nov, 2023
+Nothing other than README.md is working.<br>
+install some of dependencies, currently working on the Aggregate root part, try to build abstraction part of the code. Start with good architecture will make future easier.
 
 ## Built with
 ### Backend:
@@ -67,3 +68,12 @@ Read document of docker, javascript, node.js, typescript as well as graphQL.<br>
 1. Since I already understand what the first mutation would do. I should keep working on the rest.
 2. Read DDD desgin and node.js material
 3. CI/CD not involved except version control.
+
+### Nov 3rd, 2023
+Try to read the book associated with the DDDforum.<br>
+Install some dependencies through npm.<br>
+Have raise more TODO<br>
+### TODO
+1. Read more about the books
+2. design from the basic
+3. Keep CI/CD problem in mind.
