@@ -10,7 +10,7 @@ Nothing other than README.md is working.
 ## Built with
 ### Backend:
 - Mongoose: The ORM for Node.js
-- Nexus GraphQL: Handle mutations and queries
+- GraphQL Nexus: Handle mutations and queries
 
 ## DDD design
 
