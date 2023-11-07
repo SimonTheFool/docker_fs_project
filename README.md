@@ -4,9 +4,11 @@
 I'm not a professional backend engineer.<br>
 This is my first backend app so far.<br>
 I hope my understanding of DDD concept and implementation can help me pass the trial.<br>
-### 3rd Nov, 2023
+### 7th Nov, 2023
 Nothing other than README.md is working.<br>
-install some of dependencies, currently working on the Aggregate root part, try to build abstraction part of the code. Start with good architecture will make future easier.
+Start with building graphql on Apollo Server<br>
+Learning graphQL right now.<br> 
+learning ts as well<br>
 
 ## Built with
 ### Backend:
@@ -77,3 +79,14 @@ Have raise more TODO<br>
 1. Read more about the books
 2. design from the basic
 3. Keep CI/CD problem in mind.
+
+### Nov 7th, 2023
+**static variable** belongs to the class.<br>
+**instance variable** belongs to the object created from the class.<br>
+Noted: default declaration is instance variable.<br>
+Access modifiers: public: open to all; protected: can access from subclasses; private: this class only.<br>
+Noted: public by default.<br>
+Readonly Modifier: Read only, initialized at declaration or in the constructor.<br>
+Interface is a very virtual idea that support extends as well.<br>
+Generic is very convenient for creating other things.<br>
+Just implement a graphQL first Query, far from getting it done yet.
