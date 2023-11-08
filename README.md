@@ -4,11 +4,13 @@
 I'm not a professional backend engineer.<br>
 This is my first backend app so far.<br>
 I hope my understanding of DDD concept and implementation can help me pass the trial.<br>
+
 ### 7th Nov, 2023
 Nothing other than README.md is working.<br>
 Start with building graphql on Apollo Server<br>
 Learning graphQL right now.<br> 
 learning ts as well<br>
+
 
 ## Built with
 ### Backend:
@@ -80,6 +82,7 @@ Have raise more TODO<br>
 2. design from the basic
 3. Keep CI/CD problem in mind.
 
+
 ### Nov 7th, 2023
 **static variable** belongs to the class.<br>
 **instance variable** belongs to the object created from the class.<br>
@@ -90,3 +93,4 @@ Readonly Modifier: Read only, initialized at declaration or in the constructor.<
 Interface is a very virtual idea that support extends as well.<br>
 Generic is very convenient for creating other things.<br>
 Just implement a graphQL first Query, far from getting it done yet.
+
